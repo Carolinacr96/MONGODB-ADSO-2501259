@@ -157,7 +157,7 @@ async function run() {
     // });
     // await encontrarUsuario(dataBase, 'Usuarios', "Prince");
 
-// -------------------------UPDAE ONE CON UPSERT------------------------------------
+// -------------------------UPDATE ONE CON UPSERT------------------------------------
 
     // await encontrarUsuario(dataBase, 'Usuarios', "Lorena");
     // await actualizarUsuarioUpsert(dataBase, 'Usuarios', "Lorena", {
@@ -433,12 +433,12 @@ const dropCollection = (client)=>{
 
 // ----------------------------------DROP COLLECITION------------------------------------
 
-// const dropDataBase = (client)=>{
-//     try{
-//         const result =  client.db("Sena").drop()
-//         console.log("Se eliminó con éxito la base de datos")
-//         return result
-//     }catch(error){
-//         console.log(error)
-//     }
-// }
+const dropDataBase = (client)=>{
+    try{
+        const result =  client.db("Sena").dropDatabase()
+        console.log("Se eliminó con éxito la base de datos")
+        return result
+    }catch(error){
+        console.log(error)
+    }
+}
