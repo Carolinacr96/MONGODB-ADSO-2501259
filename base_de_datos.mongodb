@@ -1,0 +1,82 @@
+use('Sena');
+
+// db.createCollection('Usuarios',{
+//     validator: {
+//         $jsonSchema:{
+//             properties: {
+//                 name:{
+//                     bsonType:"string"
+//                 },
+//                 lastName:{
+//                     bsonType:"string"
+//                 },
+//                 age:{
+//                     bsonType:"int"
+//                 },
+//                 email:{
+//                     bsonType:"string"
+//                 },
+//                 cellPhone:{
+//                     bsonType:"string"
+//                 }
+//         }
+//     }
+// }
+// })
+
+// db.createCollection('Comentarios',{
+//   validator: {
+//     $jsonSchema:{
+//       properties:{
+//         numPost:{
+//           bsonType: "int"
+//         },
+//         name:{
+//           bsonType:"string"
+//         },
+//         lastName:{
+//             bsonType:"string"
+//         },
+//         email:{
+//             bsonType:"string"
+//         },
+//         body:{
+//             bsonType:"string"
+//         }    
+//       }
+//     }
+//   }
+// })
+// 
+
+// db.createCollection('Fotos',{
+//   validator: {
+//     $jsonSchema:{
+//       properties:{
+//         numAlbum:{
+//           bsonType: "int"
+//         },
+//         title:{
+//           bsonType:"string"
+//         },
+//         description:{
+//             bsonType:"string"
+//         },
+//         author:{
+//             bsonType:"string"
+//         },
+//         year:{
+//             bsonType:"int"
+//         }    
+//       }
+//     }
+//   }
+// })
+
+
+
+
+
+
+
+         
